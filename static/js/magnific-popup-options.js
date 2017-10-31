@@ -6,7 +6,7 @@ $(document).ready(function() {
 			removalDelay: 300,
 			mainClass: 'mfp-with-zoom',
 			gallery:{
-				enabled:true
+				enabled:false
 			}
 		});
 	};
@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 
 	// Call the functions 
-	magnifPopup();
+  magnifPopup();
 	magnifVideo();
 
 });
